@@ -1,3 +1,4 @@
+define(function(require, exports, module){
 
 /**
  * Expose `debug()` as the module.
@@ -135,3 +136,5 @@ function coerce(val) {
 try {
   if (window.localStorage) debug.enable(localStorage.debug);
 } catch(e){}
+
+});
